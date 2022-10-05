@@ -1,14 +1,30 @@
-import React from 'react';
+import React,{useEffect,useState} from 'react';
 import { useParams } from 'react-router-dom';
 
 
 function Products() {
-    const params = useParams()
-    console.log(params)
-    console.log(Products)
+    const {id} = useParams();
+
+    const[item,setItem]= useState([]);
+
+    
+     
+   
   return (
-    <div>Products</div>
+    <>
+      
+        
+    
+    </>
+   
   )
 }
 
-export default Products
+export default Products;
+
+
+
+
+  
+ 
+  

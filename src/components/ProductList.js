@@ -1,16 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
+import Products from './Products';
 
 function ProductList() {
    
     const [items, setItems] = useState([]);
-
+    
 
     useEffect(() => {
         fetch('https://fakestoreapi.com/products/')
             .then(res => res.json())
             .then(data => setItems(data))
 
-    }, [])
+    }, []);
+   
 
     return (
         <>
@@ -28,10 +31,12 @@ function ProductList() {
                                         <div className="card-body">
                                             <h5 className="card-title">{item.title}</h5>
                                             <p className="card-text">{item.price}</p>
-                                            <button className='btn btn-success'>BuyNow</button>
+                                            <NavLink className='btn btn-success'to={`./Product/${item.id}`}>BuyNow</NavLink>
                                         </div>
                                     </div>
                                     </div>
+
+                                    <Products />
                                     
                                     </>
                                 )

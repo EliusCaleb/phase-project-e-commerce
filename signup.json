@@ -1,0 +1,18 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "newSigning": {
+        "name": "John",
+        "email": "john@gmail.com",
+        "password": "1234567"
+      },
+      "id": 2
+    }
+  ]
+}

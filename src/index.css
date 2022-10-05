@@ -49,26 +49,6 @@ body{
 
 /* navbar*/
 
-.navbar nav {
-  background-color: white;
-}
-.navbar nav  ul{
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  
-}
-
-.navbar nav  ul li {
-  display: inline-block;
-  margin-bottom: 50px;
-  list-style: none;   
-  padding: 10px;   
-}
-.navbar nav  ul li a{
-  text-decoration: none;
-  padding: 10px 20px;
-}
 
 a.active,a:hover{
   background-color:gray;
@@ -81,4 +61,39 @@ img{
   height:300px;
   width: 300px;
   object-fit: contain;
+}
+/* Reservation Form */
+.reservationform form{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  align-items: center;
+  
+}
+.reservationform form input{
+  width: 250px;
+  padding-top: 20px;
+  padding-left: 4px;
+  height: 30px;
+  font-family: var(--Poppins);
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+  background: none;
+  margin-bottom: 15px;
+  
+}
+
+.reservationform button{
+  border: none;
+  background: black;
+  color: #fff;
+  font-family: var(--Poppins);
+  font-size: 17px;
+  padding: 10px;
 }

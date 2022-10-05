@@ -11,7 +11,7 @@ import SignUP from "./SignUP";
 function App() {
 
   return (
-    <div classNameName="App">
+    <>
 
         <NavBar />
 
@@ -26,7 +26,7 @@ function App() {
 
       
   
-    </div>
+    </>
   );
 }
 
