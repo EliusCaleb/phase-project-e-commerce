@@ -71,7 +71,7 @@ body{
 }
 
 a.active,a:hover{
-  background-color: #000;
+  background-color:gray;
   color:#fff;
   transition: 3s;
   

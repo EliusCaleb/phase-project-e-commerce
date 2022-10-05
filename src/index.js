@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import './index.css';
 import { BrowserRouter } from "react-router-dom";
 import App from "./components/App";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 
 ReactDOM.render(
   <BrowserRouter>
