@@ -19,7 +19,7 @@ function ProductList({ items }) {
                                     <img src={item.image} className="card-img-top" alt="..." />
                                         <div className="card-body">
                                             <h5 className="card-title">{item.title}</h5>
-                                            <p className="card-text">{item.price}</p>
+                                            <p className="card-text">$ {item.price}</p>
                                             <NavLink className='btn btn-success'to={`/products/${item.id}`}>BuyNow</NavLink>
                                         </div>
                                     </div>

@@ -50,6 +50,7 @@ function SignUP() {
           <div className="col-sm-10">
             <input
               type="text"
+              className="form-control"
               value={name}
               onChange={e => setName(e.target.value)} 
             />
@@ -61,6 +62,7 @@ function SignUP() {
           <div className="col-sm-10">
             <input
               type="text"
+              className="form-control"
               value={email}
               onChange={e => setEmail(e.target.value)}
             />
