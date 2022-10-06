@@ -1,9 +1,12 @@
 import React from 'react';
-import { NavLink, useParams } from 'react-router-dom';
+import {  useParams } from 'react-router-dom';
+import { RoomContext } from '../CartContent';
+import {useContext} from 'react';
 
 
 
 function Products({ items }) {
+    const { addCart}= useContext(RoomContext)
     const params = useParams();
     
 
@@ -26,10 +29,7 @@ function Products({ items }) {
                                     <p className="card-text  fs-5">{item.description}</p>
                                     <p className="card-text fw-bold fs-5 "> ${item.price}</p>
 
-                                    <NavLink to={`/cart/${item.id}`}className={'btn btn-outline-dark'} >
-                                    <i class="fa fa-cart-shopping"></i>
-                                          Add To Cart
-                                    </NavLink>
+                                    <button className="'btn btn-success'"   onClick={()=>{addCart(item)}}>AddTOCART</button>
 
                                 </div>
 

@@ -7,6 +7,9 @@ import ProductList from "./ProductList";
 import SignUP from "./SignUP";
 import Products from "./Products";
 import Cart from "./Cart";
+import { RoomProvider } from "../CartContent";
+
+
 
 
 
@@ -23,19 +26,19 @@ function App() {
 
   return (
     <>
-
-      <NavBar />
+     <RoomProvider>
+     <NavBar />
       <Routes>
         <Route exact='true' path='/' element={<Home />} ></Route>
         <Route exact='true' path='/bigdaddy' element={<Home />} ></Route>
         <Route exact='true' path='/about' element={<About />} ></Route>
         <Route exact='true' path='/productlist' element={<ProductList  items={items}/>} ></Route>
-        <Route path="/products/:itemId" element={<Products items={items} />}></Route>
-        <Route  path='/cart:itemId' element={<Cart items={items} />} ></Route>
+        <Route path="/products/:itemId" element={<Products items={items} />}></Route>      
         <Route exact='true' path='/signup' element={<SignUP />} ></Route>
+        <Route exact='true' path='/cart' element={<Cart  />} ></Route>
       </Routes>
-
-
+     </RoomProvider>
+      
 
     </>
   );
