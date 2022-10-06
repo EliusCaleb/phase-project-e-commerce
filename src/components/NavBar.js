@@ -24,8 +24,10 @@ const NavBar = () => {
                             </li>
                         </ul>
                         <div className='user '>
-                            <NavLink className="btn btn-outline-dark me-3" to="/cart">Cart</NavLink>
-                            <NavLink className="btn btn-outline-dark me-3" to="/signup">SignUP</NavLink>
+                            <NavLink className="btn btn-outline-dark me-3" to="/cart">
+                            <i className="fa fa-shopping-cart"></i>Cart</NavLink>
+                            <NavLink className="btn btn-outline-dark me-3" to="/signup">
+                            <i class="fa fa-sign-in" ></i>SignUP</NavLink>
 
 
 

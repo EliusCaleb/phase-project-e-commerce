@@ -6,6 +6,7 @@ import About from "./About";
 import ProductList from "./ProductList";
 import SignUP from "./SignUP";
 import Products from "./Products";
+import Cart from "./Cart";
 
 
 
@@ -30,7 +31,7 @@ function App() {
         <Route exact='true' path='/about' element={<About />} ></Route>
         <Route exact='true' path='/productlist' element={<ProductList  items={items}/>} ></Route>
         <Route path="/products/:itemId" element={<Products items={items} />}></Route>
-      
+        <Route  path='/cart:itemId' element={<Cart items={items} />} ></Route>
         <Route exact='true' path='/signup' element={<SignUP />} ></Route>
       </Routes>
 
