@@ -24,9 +24,7 @@ function ProductList({ items }) {
                                         </div>
                                     </div>
                                     </div>
-
                                    
-                                    
                                     </>
                                 )
                             })}
@@ -34,10 +32,6 @@ function ProductList({ items }) {
                         </div>
 
                     </div>
-
-
-
-
 
 
         </>

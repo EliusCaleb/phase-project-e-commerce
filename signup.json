@@ -37,6 +37,30 @@
         "password": "12345sxcvbnm"
       },
       "id": 5
+    },
+    {
+      "newSigning": {
+        "name": "Queens",
+        "email": "queenslay@com",
+        "password": "qwerty134"
+      },
+      "id": 6
+    },
+    {
+      "newSigning": {
+        "name": "Jane",
+        "email": "Jane@com",
+        "password": "85434rfb"
+      },
+      "id": 7
+    },
+    {
+      "newSigning": {
+        "name": "ELIUS WANYORO GACHANGO",
+        "email": "eliuswanyoro@gmail.com",
+        "password": "qwdf"
+      },
+      "id": 8
     }
   ]
 }

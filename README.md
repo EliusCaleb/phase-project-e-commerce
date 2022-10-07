@@ -51,7 +51,8 @@ After cloning the project:
 
 
 ## Links
-   'https://github.com/EliusCaleb/phase-project-e-commerce'  
+   'https://github.com/EliusCaleb/phase-project-e-commerce'
+   'https://darling-sunburst-b1562b.netlify.app/home'   
 
 .
 
