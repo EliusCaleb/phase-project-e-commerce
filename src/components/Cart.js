@@ -83,29 +83,6 @@ function Cart() {
 
 export default Cart;
 
-/*
-/*<div className='total'>
-                        <span>Total Price</span>
-                        <span> ${price}</span>
-
-                     </div>
-                     
-                     
-                     /*
-    const handlePrice = ()=>{
-                     let answ=0  
-        saved.map((item)=>(
-            answ += item.price    
-        ))
-        setPrice(answ)
-    }
-    useEffect(()=>{
-        handlePrice();
-    }); 
-    */
-
-                     
-                 
 
 
 

@@ -29,6 +29,14 @@
         "password": "12escv"
       },
       "id": 4
+    },
+    {
+      "newSigning": {
+        "name": "Faith",
+        "email": "faith@gmail.com ",
+        "password": "12345sxcvbnm"
+      },
+      "id": 5
     }
   ]
 }

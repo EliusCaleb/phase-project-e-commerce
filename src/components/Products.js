@@ -36,7 +36,7 @@ function Products({ items }) {
                                     <p className="card-text fw-bold fs-5 "> ${item.price}</p>
 
                                     <button className="btn btn-secondary me-5"   onClick={()=>{addCart(item)}}>AddTOCART</button>
-
+                                    
                                     <button className="btn btn-info  me-5"  onClick={handleClick}>Go Back
                                     </button>
 
