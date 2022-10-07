@@ -2,13 +2,19 @@ import React from 'react';
 import {  useParams } from 'react-router-dom';
 import { RoomContext } from '../CartContent';
 import {useContext} from 'react';
+import { useNavigate } from 'react-router-dom'
 
 
 
 function Products({ items }) {
     const { addCart}= useContext(RoomContext)
     const params = useParams();
+
+    const navigate = useNavigate();
     
+    function handleClick(e){
+        navigate('/productlist') 
+    }
 
     return (
 
@@ -29,7 +35,10 @@ function Products({ items }) {
                                     <p className="card-text  fs-5">{item.description}</p>
                                     <p className="card-text fw-bold fs-5 "> ${item.price}</p>
 
-                                    <button className="'btn btn-success'"   onClick={()=>{addCart(item)}}>AddTOCART</button>
+                                    <button className="btn btn-secondary me-5"   onClick={()=>{addCart(item)}}>AddTOCART</button>
+
+                                    <button className="btn btn-info  me-5"  onClick={handleClick}>Go Back
+                                    </button>
 
                                 </div>
 
@@ -44,6 +53,7 @@ function Products({ items }) {
             </div>
 
         </div>
+       
     )
 }
 

@@ -4,10 +4,13 @@
   padding:0;
 }
 
-body{
+.container{
  
-  background: aqua;
- 
+  font-family:'Roboto',sans-serif;
+    background: linear-gradient(45deg, rgba(183,204,246,0.7),rgba(7,43,127,067));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -96,4 +99,10 @@ img{
   font-family: var(--Poppins);
   font-size: 17px;
   padding: 10px;
+}
+
+.imageHome{
+ 
+  height:90vh;
+  width: 100vw;
 }
