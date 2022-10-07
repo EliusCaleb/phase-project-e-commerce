@@ -8,7 +8,7 @@ function Cart() {
 
     const { saved } = useContext(RoomContext)
     const { setSaved } = useContext(RoomContext)
-    const [price,setPrice] =useState(0)
+    const [price,setPrice] =useState(0.0)
 
 
     const navigate = useNavigate();
@@ -73,10 +73,6 @@ function Cart() {
             </div>
 
         </>
-
-
-
-
 
     )
 }

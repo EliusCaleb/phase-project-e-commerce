@@ -22,11 +22,6 @@ function Home() {
       </div>
 
 
-
-
-
-
-
     </>
   )
 }

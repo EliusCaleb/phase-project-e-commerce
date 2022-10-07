@@ -15,7 +15,7 @@ function ProductList({ items }) {
                                 return (
                                     <>
                                     <div className='col-md-4' key={item.id} >
-                                    <div className="card"  key={item.id}>
+                                    <div className="card text-center"  key={item.id}>
                                     <img src={item.image} className="card-img-top" alt="..." />
                                         <div className="card-body"key={items.id}>
                                             <h5 className="card-title">{item.title}</h5>

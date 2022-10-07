@@ -38,8 +38,6 @@ const NavBar = () => {
             </nav>
 
 
-
-
         </>
 
     )
