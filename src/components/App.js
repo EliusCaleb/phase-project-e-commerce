@@ -30,6 +30,7 @@ function App() {
      <NavBar />
       <Routes>
         <Route exact='true' path='/home' element={<Home />} ></Route>
+        <Route exact='true' path='/' element={<Home />} ></Route>
         <Route exact='true' path='/about' element={<About />} ></Route>
         <Route exact='true' path='/productlist' element={<ProductList  items={items}/>} ></Route>
         <Route path="/products/:itemId" element={<Products items={items} />}></Route>      
