@@ -20,7 +20,7 @@ Part of what this code  is use to  learn the following  concepts;
 4) Open the Vs Studio Editor through code. in the terminal.
 5)Create components folder  in SRC folder containing  components for project.
 6) Create six components Home,About App,ProductList,Products,Cart,SignUP and another folder outside the component called CartContent. 
-5.Create signup json folder to hold posted Data.
+7)Create signup json folder to hold posted Data.
 
 #### Code 
    *Contains  react hooks  and custom hooks* 
@@ -52,7 +52,7 @@ After cloning the project:
 
 ## Links
    'https://github.com/EliusCaleb/phase-project-e-commerce'  
-   
+
 .
 
 
