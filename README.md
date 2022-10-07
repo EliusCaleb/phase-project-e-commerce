@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Getting Started with Big Daddy Shop React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+For this project, We will be building out a React application that displays a list of available products, among other features. 
 
-In the project directory, you can run:
+Part of what this code  is use to  learn the following  concepts;
+    1) Fetching data from a public API ''https://fakestoreapi.com/products/''.
+    2) Using Bootstrap for app .
+    3) Learning  client-routing and  programmatic navigation.
+    4) Learnig React Context .
 
-### `npm start`
+### Building the Website
+1) Using Git Bash Create a folder called ecommerce.
+2) Inside the  folder  run npx create-react-app .
+3) Run the following commands:
+         a)npm install react-router-dom,
+         b) npm i bootstrap,
+         c) npm i font-awesome-icons. 
+4) Open the Vs Studio Editor through code. in the terminal.
+5)Create components folder  in SRC folder containing  components for project.
+6) Create six components Home,About App,ProductList,Products,Cart,SignUP and another folder outside the component called CartContent. 
+5.Create signup json folder to hold posted Data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Code 
+   *Contains  react hooks  and custom hooks* 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After cloning the project:
 
-### `npm run build`
+1)Run npm install in your terminal.
+2)Run npm run server. This will run your backend on port 8002.This will run your React app on port 8000.Make sure to open 'http://localhost:8001/clients' in the browser to verify that your backend is working before you proceed.The base URL for your backend is: http://localhost:8002.This is used for submit option available in the app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3)In a new terminal, run npm start. To visit the  page for Big Daddy shop
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Functionality of the Website
+1) Responsive website in single page. 
+2) User can view the product and Add to Cart.  
+3) User can  remove add  products of their choice. 
+4) Sign-up to the site.
+5) User-friendly. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Elius Wanyoro Gachango 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Links
+   'https://github.com/EliusCaleb/phase-project-e-commerce'  
+   
+.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
