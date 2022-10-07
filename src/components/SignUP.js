@@ -37,7 +37,7 @@ function SignUP() {
 
     alert(`Thank you for signing with us ${name}!`)
 
-    navigate('/')
+    navigate('/home')
 
   }
   return (

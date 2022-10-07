@@ -21,6 +21,14 @@
         "password": "qwertyu"
       },
       "id": 3
+    },
+    {
+      "newSigning": {
+        "name": "Collin",
+        "email": "collins@com",
+        "password": "12escv"
+      },
+      "id": 4
     }
   ]
 }

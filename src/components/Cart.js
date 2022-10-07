@@ -61,7 +61,7 @@ function Cart() {
 
 
                     ))}
-                    <div className='total'>
+                    <div className='total fw-bold fs-5 text-capitalize'>
                         <span>Total Price</span>
                         <span> ${price}</span>
 
